@@ -1,0 +1,41 @@
+Dh = 920;   %density of HTPB in kg / m ^ 3
+Dn = 743.9; %density of nitrous at 25C in kg / m ^ 3
+Hp = 4;   %port diameter of HTPB in inches
+Hd = 6.75;  %outer diameter of HTPB grain in inches
+Hu = .25;   %HTPB that will be left unburned in inches
+To = 8;     %nitrous tank outer diameter in inches
+Ti = 7.75;  %nitrous tank inner diameter in inches
+Ci = 7.75;  %inner diameter of Combustion Chamber Body in inches
+Co = 8;     %outer diameter of Combustion Chamber Body in inches
+Rr = 0.09;   %regression rate of HTPB in in / sec
+OF = 7;     %O / F ratio of fuel and oxidizer
+Bm = 1.5;   %Bulkhead mounting depth in inches
+Nm = 2.2;   %nozzle mounting depth in inches
+Pl = 3;     %post combustion chamber length in inches
+Pe = 3.75;  %pre combustion chaber length in inches
+It = 0.125; %Nitrous injector thickness in inches
+
+%mass properties
+Al = 2700;      %density of 6061-T6 aluminum in kg/m^3
+Pr = 940;       %density of index paper in kg/m^3
+Nc = 1.123;     %weight of Nitrous Cap in kg
+Bh = 6.354;     %weight of Bulkhead in kg
+Ni = 0.263;     %weight of Nitrous Injector in kg
+Pq = 0.422;     %weight of Pre Combustion Chamber Paper Core in kg
+Gr = 0.382;     %weight of Pre Combustion Chamber Graphite Ring in kg
+Gi = 1.200;     %weight of Pre Combustion Chamber Graphite Insert in kg
+Cr = 0.506;     %weight of Pre Combustion Chamber Ceramic Ring in kg
+Cc = 1.093;     %weight of Pre Combustion Chamber Ceramic Insulator in kg
+Sp = 0.336;     %weight of Post Combustion Chamber Paper Core in kg
+Si = 1.280;     %weight of Post Combustion Chamber Graphite Insert in kg
+Sc = 0.927;     %weight of Post Combustion Chamber Ceramic Insulator in kg
+
+k = 1.2527;           % specific heat ratio source:http://www.kayelaby.npl.co.uk/general_physics/2_3/2_3_6.html
+R = 8314;           %universal gas constant
+Tc = 3217.77;          % initial temperature at nozzle inlet (Kelvin)
+Pc = 2413200;    %combustion chamber pressure in pa (350 psi)
+%Pa = 101352.932;    % atmospheric pressure Pa at sea level
+Pa = 69692.2067;    %atmospheric pressure at 10k ft
+g = 9.8;            % gravity
+%Mm = 44;            %molecular mass
+Mm = 28.274;
